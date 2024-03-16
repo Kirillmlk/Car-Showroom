@@ -328,8 +328,27 @@ img {
   height: 300px;
 }
 
+.home .shape__big,
+.home .shape__small{
+  position: absolute;
+}
+
+.home .shape__big{
+  left: -9rem;
+  top: -4rem;
+}
+
+.home .shape__smalls{
+  right: -10rem;
+  bottom: 3rem;
+}
 
 
+.scroll-header{
+  border-radius: 0 0 1rem 1rem;
+  background-color: var(--body-color);
+  box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
+}
 
 
 
