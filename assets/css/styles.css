@@ -685,6 +685,15 @@ img {
   transform: translateX(-.25rem);
 }
 
+.active-featured{
+  background-color: var(--first-color);
+}
+
+.active-featured span,
+.active-featured img{
+  opacity: 1;
+}
+
 
 
 
